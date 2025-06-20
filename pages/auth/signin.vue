@@ -6,11 +6,16 @@
     <v-text-field
 
       v-model="name"
+      outlined
       label="Email"
+      prepend-inner-icon="mdi-email "
     ></v-text-field>
 
     <v-text-field
       label="password"
+      outlined
+      type="password"
+      prepend-inner-icon="mdi- password "
     ></v-text-field>
 
     <v-btn block>
